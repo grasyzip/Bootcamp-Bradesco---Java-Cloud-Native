@@ -1,0 +1,40 @@
++---------------------------------------------------------+
+|        Smartphone                                       |
++---------------------------------------------------------+
+| - modelo: String                                        |
+| - fabricante: String                                    |
+| - sistemaOperacional: String                            |
++---------------------------------------------------------+
+| + fazerChamada(numero: String): void                    |
+| + enviarMensagem(numero: String, mensagem: String): void|
+| + instalarAplicativo(aplicativo: Aplicativo): void      |
+| + usarSiri(comando: String): void                       |
++---------------------------------------------------------+
+
++-----------------+
+|   Aplicativo    |
++-----------------+
+| - nome: String  |
+| - versao: String|
++-----------------+
+| + abrir(): void |
+| + fechar(): void|
++-----------------+
+
++-------------------------------------+
+|                 Camera              |
++-------------------------------------+
+| - megapixels: int                   |
+| - modoRetrato: boolean              |
++-------------------------------------+
+| + tirarFoto(): void                 |
+| + gravarVideo(duracao: int): void   |
++-------------------------------------+
+
++---------------------------------+
+|       ReconhecimentoFacial      |
++---------------------------------+
+|                                 |
++---------------------------------+
+| + reconhecerUsuario(): boolean  |
++---------------------------------+
